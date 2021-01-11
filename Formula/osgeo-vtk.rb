@@ -145,7 +145,7 @@ class OsgeoVtk < Formula
   depends_on "osgeo-matplotlib"
 
   # JAVA_VERSION = "1.8" # "1.10+"
-  depends_on :openjdk => ["1.8", :build] # JAVA_VERSION
+  depends_on "openjdk" => :build
 
   depends_on "gl2ps"
   depends_on "libharu"
